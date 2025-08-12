@@ -65,6 +65,8 @@ export function DashboardLayout({ sx, cssVars, children, slotProps, layoutQuery 
     return !allowedRoles.includes(accountType);
   };
 
+  
+
   const renderHeader = () => {
     const headerSlotProps = {
       container: {

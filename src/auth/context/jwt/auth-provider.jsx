@@ -45,7 +45,9 @@ export function AuthProvider({ children }) {
       return me;
     } catch (error) {
       const accessToken = sessionStorage.getItem(JWT_STORAGE_KEY);
+     
       const role = sessionStorage.getItem(ACCOUNT_TYPE_KEY) || 'admin';
+
       const cached = sessionStorage.getItem(AUTH_USER_KEY);
 
       if (cached) {
@@ -76,4 +78,5 @@ export function AuthProvider({ children }) {
   );
 
   return <AuthContext value={memoizedValue}>{children}</AuthContext>;
+  
 }
