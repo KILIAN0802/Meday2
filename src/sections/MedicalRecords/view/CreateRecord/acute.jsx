@@ -296,6 +296,7 @@ export function CreateAcute() {
 
       <Form methods={methods} onSubmit={onSubmit} sx={{ width: '100%' }}>
         <Grid container direction="column" spacing={2} sx={{ maxWidth: 720, mx: 'auto' }}>
+        <h1 >Bệnh án cấp tính</h1>
           {/* ===== 1) Thông tin cơ bản ===== */}
           <Grid item><Field.Text name="patientId" label="Mã bệnh nhân" required {...fieldProps} /></Grid>
           <Grid item><Field.Text name="recordId" label="Mã hồ sơ" {...fieldProps} /></Grid>
@@ -847,7 +848,7 @@ export function CreateAcute() {
           <Grid item><Field.Text name="followup_date" type="date" label="Hẹn khám lại" {...fieldProps} /></Grid>
 
           {/* ===== Nút Lưu ===== */}
-          <Grid item sx={{ display: 'flex', justifyContent: 'flex-end', mt: 1 }}>
+          <Grid item sx={{ display: 'flex', justifyContent: 'flex-end', mt: 1, padding: 7}}>
             <Button type="submit" variant="contained">Lưu</Button>
           </Grid>
         </Grid>

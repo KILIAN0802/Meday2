@@ -144,6 +144,7 @@ export function CreateRechronic() {
 
     <Form methods={methods} onSubmit={onSubmit} sx={{ width: '100%' }}>
       <Grid container direction="column" spacing={2} sx={{ maxWidth: 720, mx: 'auto' }}>
+      <h1>Bệnh án mạn tính tái khám</h1>
 
         {/* ===== Thông tin cơ bản ===== */}
         <Grid item><Field.Text name="patientId" label="Mã bệnh nhân" required {...fieldProps} /></Grid>
@@ -457,7 +458,7 @@ export function CreateRechronic() {
         <Grid item><Field.Text name="actScore" label="ACT (điểm)" {...fieldProps} /></Grid> */}
 
         {/* ===== Nút Lưu ===== */}
-        <Grid item sx={{ display: 'flex', justifyContent: 'flex-end', mt: 1 }}>
+        <Grid item sx={{ display: 'flex', justifyContent: 'flex-end', mt: 1, padding: 7}}>
           <Button type="submit" variant="contained">Lưu</Button>
         </Grid>
       </Grid>
