@@ -92,17 +92,17 @@ const ITEMS = [
     title: 'Về sự tận tâm và tin cậy',
     subtitle: 'Chăm sóc tận tâm – Sức khỏe vẹn toàn.',
     icon: 'solar:cloudy-moon-bold-duotone',
-    imgUrl: [`${CONFIG.assetsDir}/assets/images/home/image6.jpg`],
+    imgUrl: [`${CONFIG.assetsDir}/assets/images/home/image6.webp`],
   },
   {
     title: 'Về chất lượng dịch vụ',
     subtitle: 'Nơi y đức và chất lượng gặp nhau',
     icon: 'solar:pallete-2-bold-duotone',
     imgUrl: [
+      `${CONFIG.assetsDir}/assets/images/home/image1.webp`,
+      `${CONFIG.assetsDir}/assets/images/home/image2.webp`,
       `${CONFIG.assetsDir}/assets/images/home/image3.webp`,
-      `${CONFIG.assetsDir}/assets/images/home/image4.jpg`,
       `${CONFIG.assetsDir}/assets/images/home/image4.webp`,
-      `${CONFIG.assetsDir}/assets/images/home/image5.jpg`,
       `${CONFIG.assetsDir}/assets/images/home/image5.webp`,
     ],
   },
@@ -110,7 +110,7 @@ const ITEMS = [
     title: 'Về sự an tâm và đồng hành',
     subtitle: 'Luôn bên bạn trên hành trình khỏe mạnh.',
     icon: 'solar:align-right-bold-duotone',
-    imgUrl: [`${CONFIG.assetsDir}/assets/images/home/image1.jpg`],
+    imgUrl: [`${CONFIG.assetsDir}/assets/images/home/image7.webp`],
   },
 ];
 
