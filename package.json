@@ -6,10 +6,9 @@
   "private": true,
   "scripts": {
     
-  "build": "next build",
-
-    "dev": "next dev -p 3032 --turbopack",
-    "start": "next start -p 3032",
+  "build": "node --max-old-space-size=4096 node_modules/.bin/next build",
+  "dev": "node --max-old-space-size=4096 node_modules/.bin/next dev -p 3032 --turbopack",
+  "start": "node --max-old-space-size=4096 node_modules/.bin/next start -p 3032",
     "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\"",
     "lint:fix": "eslint --fix \"src/**/*.{js,jsx,ts,tsx}\"",
     "lint:print": "npx eslint --print-config eslint.config.mjs > eslint-show-config.json",
