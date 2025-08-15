@@ -95,7 +95,7 @@ export function HomeHero({ sx, ...other }) {
             }),
           ]}
         >
-          MAYDAY
+          DRMAYDAY
         </Box>
       </Box>
     </m.div>
