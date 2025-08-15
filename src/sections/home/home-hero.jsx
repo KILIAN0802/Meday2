@@ -75,7 +75,7 @@ export function HomeHero({ sx, ...other }) {
         <Box component="span" sx={{ width: 1, opacity: 0.24 }}>
           Làn da khỏe mạnh
         </Box>
-        cùng với
+        cùng với 
         <Box
           component={m.span}
           animate={{ backgroundPosition: '200% center' }}
@@ -95,7 +95,7 @@ export function HomeHero({ sx, ...other }) {
             }),
           ]}
         >
-          DR MAYDAY
+          DRMAYDAY
         </Box>
       </Box>
     </m.div>
@@ -113,7 +113,7 @@ export function HomeHero({ sx, ...other }) {
           }),
         ]}
       >
-        {`Công cụ giúp quản lý và chuẩn đoán bệnh mề đay. \n Dễ dàng sử dụng với giao diện thân thiện, \n giúp người dùng theo dõi và quản lý tình trạng bệnh của mình.`}
+        {`Công cụ giúo quản lý và chuẩn đoán bệnh mề đay. \n Dễ dàng sử dụng với giao diện thân thiện, \n giúp người dùng theo dõi và quản lý tình trạng bệnh của mình.`}
       </Typography>
     </m.div>
   );
