@@ -75,7 +75,7 @@ export function HomeHero({ sx, ...other }) {
         <Box component="span" sx={{ width: 1, opacity: 0.24 }}>
           Làn da khỏe mạnh
         </Box>
-        cùng với 
+        cùng với
         <Box
           component={m.span}
           animate={{ backgroundPosition: '200% center' }}
@@ -95,7 +95,7 @@ export function HomeHero({ sx, ...other }) {
             }),
           ]}
         >
-          DRMAYDAY
+          MAYDAY
         </Box>
       </Box>
     </m.div>
